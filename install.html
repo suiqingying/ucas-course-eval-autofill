@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UCAS 课程评估自动填写 - 一键安装</title>
+    <style>
+      :root {
+        --bg: #f6f3ee;
+        --card: #ffffff;
+        --text: #1b1b1b;
+        --muted: #5a5a5a;
+        --accent: #1b4d3e;
+        --accent-2: #e8d9c4;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+        color: var(--text);
+        background:
+          radial-gradient(800px 400px at 20% -10%, #fff 0, #f3ede2 50%, #f6f3ee 100%),
+          var(--bg);
+      }
+      .wrap {
+        max-width: 760px;
+        margin: 48px auto;
+        padding: 0 20px 64px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid #ece1d1;
+        border-radius: 16px;
+        padding: 28px;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+      }
+      h1 {
+        margin: 0 0 8px 0;
+        font-size: 28px;
+        letter-spacing: 0.5px;
+      }
+      p { margin: 10px 0; color: var(--muted); }
+      .steps { margin: 16px 0 8px; padding-left: 18px; color: var(--text); }
+      .steps li { margin: 6px 0; }
+      .btn {
+        display: inline-block;
+        margin: 14px 0 6px;
+        padding: 12px 18px;
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: 700;
+        letter-spacing: 0.3px;
+      }
+      .note {
+        background: var(--accent-2);
+        border-radius: 10px;
+        padding: 10px 12px;
+        color: #4a3f31;
+        font-size: 14px;
+      }
+      .foot { margin-top: 18px; font-size: 14px; color: var(--muted); }
+      code { background: #f2eee8; padding: 2px 6px; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="card">
+        <h1>一键安装脚本</h1>
+        <p>适用于已安装 Tampermonkey 的浏览器。</p>
+        <div class="note">
+          需要在浏览器扩展管理页开启“开发人员模式”，否则脚本可能无法正常工作。
+        </div>
+        <ol class="steps">
+          <li>确认 Tampermonkey 已安装并启用。</li>
+          <li>开启浏览器扩展里的“开发人员模式”。</li>
+          <li>点击下方按钮开始安装。</li>
+        </ol>
+        <a class="btn" href="ucas-auto-eval.user.js">一键安装脚本</a>
+        <div class="foot">
+          若未自动弹出安装页，可直接打开 <code>ucas-auto-eval.user.js</code> 文件。
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
