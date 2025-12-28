@@ -2,13 +2,15 @@
 
 用于 UCAS 本科课程评估网站的 Tampermonkey 用户脚本。会自动选择每题的最高分项，并填写主观题文本。
 
+**一键安装：**  
+[👉 点击安装脚本（Tampermonkey）](https://raw.githubusercontent.com/suiqingying/ucas-course-eval-autofill/main/ucas-auto-eval.user.js)
+
 ---
 
 ## 目录
 
 - 功能
 - 安装与启用
-- 一键安装
 - 使用方法
 - 默认填写内容说明
 - 配置
@@ -31,21 +33,9 @@
 1. 安装 Tampermonkey 浏览器扩展。
 2. 打开浏览器“扩展/插件管理”页面，手动开启“开发人员模式”，否则脚本无法工作。
    ![开发者模式截图](assets/image.png)
-3. 点击浏览器工具栏上的 Tampermonkey 图标，选择“添加新脚本...”。
-4. 将 `ucas-auto-eval.user.js` 全文复制粘贴到编辑器中。
-5. 点击“文件”->“保存”（或 Ctrl + S）。
+3. 点击上方“一键安装”链接，Tampermonkey 会弹出安装页面。
+4. 在安装页点击“安装”。
 6. 在“已安装脚本”列表中确认已启用（开关为打开）。
-
----
-
-## 一键安装 🧩
-
-> 依然需要先安装 Tampermonkey，并在浏览器扩展里开启“开发人员模式”。
-
-1. 打开本仓库里的 `install.html`。
-2. 点击页面中的“一键安装脚本”按钮。
-3. 在 Tampermonkey 弹出的安装页里点“安装”。
-4. 在“已安装脚本”列表中确认已启用（开关为打开）。
 
 ---
 
