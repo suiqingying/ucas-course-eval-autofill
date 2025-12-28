@@ -1,11 +1,12 @@
 // ==UserScript==
-// @name         UCAS 自动填写评估（bkkcpj 稳定版）
+// @name         UCAS 本科课程评估自动填写
 // @namespace    http://tampermonkey.net/
 // @version      2.0
 // @description  适配 https://bkkcpj.ucas.ac.cn 的 SPA 评估填写页，自动选择每题最高分并填主观题
 // @match        https://bkkcpj.ucas.ac.cn/*
 // @run-at       document-idle
 // @grant        none
+// @author       suiqingying
 // ==/UserScript==
 
 (function () {
